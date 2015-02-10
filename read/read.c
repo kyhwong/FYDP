@@ -26,6 +26,7 @@ void decrypt_loop(emokit_device *eeg, int secs, const char* output) {
         printf("Failed to open '%s' for writing\n", output);
         return;
     }
+    fprintf(fp, "F3,FC,P7,T8,F7,F8,T7,P8,AF4,F4,AF3,O2,O1,FC5\n");
     printf("Starting data read\n");
 	while (count < frames_needed) {
 		if (emokit_read_data(eeg) > 0) {
@@ -67,7 +68,7 @@ int main(int argc, char **argv) {
     printf("How many seconds to record?\n");
     scanf("%d", &secs);
     
-    sprintf(&filename[0], "output_%ds_%d.csv", secs, (int)date);
+    sprintf(&filename[0], "output/output_%ds_%d.csv", secs, (int)date);
     
     printf("Starting decrypt loop\n");
 	decrypt_loop(eeg, secs, filename);
