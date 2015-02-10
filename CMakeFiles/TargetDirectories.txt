@@ -1,0 +1,4 @@
+/home/Asaechao/fydp/examples/contact/CMakeFiles/contact.dir
+/home/Asaechao/fydp/read_daemon/CMakeFiles/eegd.dir
+/home/Asaechao/fydp/read/CMakeFiles/eegr.dir
+/home/Asaechao/fydp/src/CMakeFiles/emokit.dir

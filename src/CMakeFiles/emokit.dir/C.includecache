@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Asaechao/fydp/src/emokit.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+emokit/emokit.h
+/home/Asaechao/fydp/src/emokit/emokit.h
+hidapi/hidapi.h
+/home/Asaechao/fydp/src/hidapi/hidapi.h
+mcrypt.h
+/home/Asaechao/fydp/src/mcrypt.h
+
+/usr/local/include/hidapi/hidapi.h
+wchar.h
+-
+
+include/emokit/emokit.h
+stdint.h
+-
+hidapi/hidapi.h
+include/emokit/hidapi/hidapi.h
+mcrypt.h
+include/emokit/mcrypt.h
+
