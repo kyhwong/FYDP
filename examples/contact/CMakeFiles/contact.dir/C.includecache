@@ -6,3 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/home/Asaechao/fydp/examples/contact/contact.c
+stdio.h
+-
+string.h
+-
+signal.h
+-
+emokit/emokit.h
+/home/Asaechao/fydp/examples/contact/emokit/emokit.h
+
+/usr/local/include/hidapi/hidapi.h
+wchar.h
+-
+
+include/emokit/emokit.h
+stdint.h
+-
+hidapi/hidapi.h
+include/emokit/hidapi/hidapi.h
+mcrypt.h
+include/emokit/mcrypt.h
+

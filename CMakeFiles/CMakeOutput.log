@@ -534,3 +534,557 @@ Parsed CXX implicit link information from above output:
   implicit dirs: [/usr/lib/gcc/i686-pc-cygwin/4.8.3;/usr/lib]
 
 
+The system is: CYGWIN - 1.7.35(0.287/5/3) - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc.exe 
+Build flags: -mwindows
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "/home/Asaechao/fydp/CMakeFiles/3.1.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "/home/Asaechao/fydp/CMakeFiles/3.1.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec3220901733/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3220901733.dir/build.make CMakeFiles/cmTryCompileExec3220901733.dir/build
+make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc.exe   -mwindows    -o CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3220901733.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec3220901733.dir/link.txt --verbose=1
+/usr/bin/gcc.exe  -mwindows   -v CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3220901733.exe -Wl,--out-implib,libcmTryCompileExec3220901733.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe
+Target: i686-pc-cygwin
+Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-4.9.2-3.i686/src/gcc-4.9.2/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-4.9.2-3.i686/src/gcc-4.9.2 --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --datadir=/usr/share --localstatedir=/var --sysconfdir=/etc --libdir=/usr/lib --datarootdir=/usr/share --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,java,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --enable-libjava --enable-libgcj-sublibs --disable-java-awt --disable-symvers --with-ecj-jar=/usr/share/java/ecj.jar --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-mwindows' '-v' '-o' 'cmTryCompileExec3220901733.exe' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-pc-cygwin/4.9.2/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/4.9.2/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc6EXH8m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-lgdi32 -plugin-opt=-pass-through=-lcomdlg32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --subsystem windows --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o cmTryCompileExec3220901733.exe /usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/4.9.2/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/4.9.2 -L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../.. CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o --out-implib libcmTryCompileExec3220901733.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -lgdi32 -lcomdlg32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/4.9.2/crtend.o
+make[1]: Leaving directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec3220901733/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3220901733.dir/build.make CMakeFiles/cmTryCompileExec3220901733.dir/build]
+  ignore line: [make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc.exe   -mwindows    -o CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.1.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3220901733.exe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec3220901733.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc.exe  -mwindows   -v CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3220901733.exe -Wl,--out-implib,libcmTryCompileExec3220901733.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe]
+  ignore line: [Target: i686-pc-cygwin]
+  ignore line: [Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-4.9.2-3.i686/src/gcc-4.9.2/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-4.9.2-3.i686/src/gcc-4.9.2 --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --datadir=/usr/share --localstatedir=/var --sysconfdir=/etc --libdir=/usr/lib --datarootdir=/usr/share --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,java,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --enable-libjava --enable-libgcj-sublibs --disable-java-awt --disable-symvers --with-ecj-jar=/usr/share/java/ecj.jar --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mwindows' '-v' '-o' 'cmTryCompileExec3220901733.exe' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-pc-cygwin/4.9.2/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/4.9.2/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/cc6EXH8m.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-lgdi32 -plugin-opt=-pass-through=-lcomdlg32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --subsystem windows --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o cmTryCompileExec3220901733.exe /usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/4.9.2/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/4.9.2 -L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../.. CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o --out-implib libcmTryCompileExec3220901733.dll.a --major-image-version 0 --minor-image-version 0 -lgcc_s -lgcc -lcygwin -lgdi32 -lcomdlg32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/4.9.2/crtend.o]
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/cyglto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6EXH8m.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgdi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lcomdlg32] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--subsystem] ==> ignore
+    arg [windows] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwj] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znaj] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwjRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnajRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=cyg] ==> ignore
+    arg [--large-address-aware] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3220901733.exe] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../crt0.o] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.2] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2]
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib]
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../..] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec3220901733.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec3220901733.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lcygwin] ==> lib [cygwin]
+    arg [-lgdi32] ==> lib [gdi32]
+    arg [-lcomdlg32] ==> lib [comdlg32]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2] ==> [/usr/lib/gcc/i686-pc-cygwin/4.9.2]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib] ==> [/usr/i686-pc-cygwin/lib]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../..] ==> [/usr/lib]
+  implicit libs: [cygwin;gdi32;comdlg32;advapi32;shell32;user32;kernel32]
+  implicit dirs: [/usr/lib/gcc/i686-pc-cygwin/4.9.2;/usr/i686-pc-cygwin/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec344347665/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec344347665.dir/build.make CMakeFiles/cmTryCompileExec344347665.dir/build
+make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec344347665.dir/feature_tests.c.o
+/usr/bin/gcc.exe   -mwindows    -std=c90 -o CMakeFiles/cmTryCompileExec344347665.dir/feature_tests.c.o   -c /home/Asaechao/fydp/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec344347665.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec344347665.dir/link.txt --verbose=1
+/usr/bin/gcc.exe  -mwindows   -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec344347665.dir/feature_tests.c.o  -o cmTryCompileExec344347665.exe -Wl,--out-implib,libcmTryCompileExec344347665.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec272380086/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec272380086.dir/build.make CMakeFiles/cmTryCompileExec272380086.dir/build
+make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec272380086.dir/feature_tests.c.o
+/usr/bin/gcc.exe   -mwindows    -std=c99 -o CMakeFiles/cmTryCompileExec272380086.dir/feature_tests.c.o   -c /home/Asaechao/fydp/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec272380086.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec272380086.dir/link.txt --verbose=1
+/usr/bin/gcc.exe  -mwindows   -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec272380086.dir/feature_tests.c.o  -o cmTryCompileExec272380086.exe -Wl,--out-implib,libcmTryCompileExec272380086.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec2728399449/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2728399449.dir/build.make CMakeFiles/cmTryCompileExec2728399449.dir/build
+make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2728399449.dir/feature_tests.c.o
+/usr/bin/gcc.exe   -mwindows    -std=c11 -o CMakeFiles/cmTryCompileExec2728399449.dir/feature_tests.c.o   -c /home/Asaechao/fydp/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2728399449.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec2728399449.dir/link.txt --verbose=1
+/usr/bin/gcc.exe  -mwindows   -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec2728399449.dir/feature_tests.c.o  -o cmTryCompileExec2728399449.exe -Wl,--out-implib,libcmTryCompileExec2728399449.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec2417679053/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2417679053.dir/build.make CMakeFiles/cmTryCompileExec2417679053.dir/build
+make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++.exe     -o CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2417679053.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec2417679053.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -v CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2417679053.exe -Wl,--out-implib,libcmTryCompileExec2417679053.dll.a -Wl,--major-image-version,0,--minor-image-version,0   
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe
+Target: i686-pc-cygwin
+Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-4.9.2-3.i686/src/gcc-4.9.2/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-4.9.2-3.i686/src/gcc-4.9.2 --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --datadir=/usr/share --localstatedir=/var --sysconfdir=/etc --libdir=/usr/lib --datarootdir=/usr/share --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,java,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --enable-libjava --enable-libgcj-sublibs --disable-java-awt --disable-symvers --with-ecj-jar=/usr/share/java/ecj.jar --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id
+Thread model: posix
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/bin/
+LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2417679053.exe' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-pc-cygwin/4.9.2/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/4.9.2/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccx8rdXj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o cmTryCompileExec2417679053.exe /usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/4.9.2/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/4.9.2 -L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../.. CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTryCompileExec2417679053.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/4.9.2/crtend.o
+make[1]: Leaving directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec2417679053/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2417679053.dir/build.make CMakeFiles/cmTryCompileExec2417679053.dir/build]
+  ignore line: [make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++.exe     -o CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.1.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2417679053.exe]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec2417679053.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++.exe     -v CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2417679053.exe -Wl,--out-implib,libcmTryCompileExec2417679053.dll.a -Wl,--major-image-version,0,--minor-image-version,0   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe]
+  ignore line: [Target: i686-pc-cygwin]
+  ignore line: [Configured with: /cygdrive/i/szsz/tmpp/gcc/gcc-4.9.2-3.i686/src/gcc-4.9.2/configure --srcdir=/cygdrive/i/szsz/tmpp/gcc/gcc-4.9.2-3.i686/src/gcc-4.9.2 --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin --sbindir=/usr/sbin --libexecdir=/usr/libexec --datadir=/usr/share --localstatedir=/var --sysconfdir=/etc --libdir=/usr/lib --datarootdir=/usr/share --docdir=/usr/share/doc/gcc --htmldir=/usr/share/doc/gcc/html -C --build=i686-pc-cygwin --host=i686-pc-cygwin --target=i686-pc-cygwin --without-libiconv-prefix --without-libintl-prefix --libexecdir=/usr/lib --enable-shared --enable-shared-libgcc --enable-static --enable-version-specific-runtime-libs --enable-bootstrap --enable-__cxa_atexit --with-dwarf2 --with-arch=i686 --with-tune=generic --disable-sjlj-exceptions --enable-languages=ada,c,c++,fortran,java,lto,objc,obj-c++ --enable-graphite --enable-threads=posix --enable-libatomic --enable-libgomp --disable-libitm --enable-libquadmath --enable-libquadmath-support --enable-libssp --enable-libada --enable-libjava --enable-libgcj-sublibs --disable-java-awt --disable-symvers --with-ecj-jar=/usr/share/java/ecj.jar --with-gnu-ld --with-gnu-as --with-cloog-include=/usr/include/cloog-isl --without-libiconv-prefix --without-libintl-prefix --with-system-zlib --enable-linker-build-id]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-pc-cygwin/4.9.2/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib/:/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2417679053.exe' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-pc-cygwin/4.9.2/collect2.exe -plugin /usr/lib/gcc/i686-pc-cygwin/4.9.2/cyglto_plugin.dll -plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=/tmp/ccx8rdXj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lcygwin -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --wrap _Znwj --wrap _Znaj --wrap _ZdlPv --wrap _ZdaPv --wrap _ZnwjRKSt9nothrow_t --wrap _ZnajRKSt9nothrow_t --wrap _ZdlPvRKSt9nothrow_t --wrap _ZdaPvRKSt9nothrow_t -Bdynamic --dll-search-prefix=cyg --large-address-aware --tsaware -o cmTryCompileExec2417679053.exe /usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../crt0.o /usr/lib/gcc/i686-pc-cygwin/4.9.2/crtbegin.o -L/usr/lib/gcc/i686-pc-cygwin/4.9.2 -L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../.. CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o --out-implib libcmTryCompileExec2417679053.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc /usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../default-manifest.o /usr/lib/gcc/i686-pc-cygwin/4.9.2/crtend.o]
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/cyglto_plugin.dll] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/i686-pc-cygwin/4.9.2/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccx8rdXj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lcygwin] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znwj] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_Znaj] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPv] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnwjRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZnajRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdlPvRKSt9nothrow_t] ==> ignore
+    arg [--wrap] ==> ignore
+    arg [_ZdaPvRKSt9nothrow_t] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [--dll-search-prefix=cyg] ==> ignore
+    arg [--large-address-aware] ==> ignore
+    arg [--tsaware] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2417679053.exe] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../crt0.o] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.2] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2]
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib]
+    arg [-L/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../..] ==> dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec2417679053.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTryCompileExec2417679053.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lcygwin] ==> lib [cygwin]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../default-manifest.o] ==> ignore
+    arg [/usr/lib/gcc/i686-pc-cygwin/4.9.2/crtend.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2] ==> [/usr/lib/gcc/i686-pc-cygwin/4.9.2]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../../../i686-pc-cygwin/lib] ==> [/usr/i686-pc-cygwin/lib]
+  collapse library dir [/usr/lib/gcc/i686-pc-cygwin/4.9.2/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;cygwin;advapi32;shell32;user32;kernel32]
+  implicit dirs: [/usr/lib/gcc/i686-pc-cygwin/4.9.2;/usr/i686-pc-cygwin/lib;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec568676087/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec568676087.dir/build.make CMakeFiles/cmTryCompileExec568676087.dir/build
+make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec568676087.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++1y -o CMakeFiles/cmTryCompileExec568676087.dir/feature_tests.cxx.o -c /home/Asaechao/fydp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec568676087.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec568676087.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec568676087.dir/feature_tests.cxx.o  -o cmTryCompileExec568676087.exe -Wl,--out-implib,libcmTryCompileExec568676087.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec236931273/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec236931273.dir/build.make CMakeFiles/cmTryCompileExec236931273.dir/build
+make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec236931273.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++11 -o CMakeFiles/cmTryCompileExec236931273.dir/feature_tests.cxx.o -c /home/Asaechao/fydp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec236931273.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec236931273.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec236931273.dir/feature_tests.cxx.o  -o cmTryCompileExec236931273.exe -Wl,--out-implib,libcmTryCompileExec236931273.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/Asaechao/fydp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make.exe" "cmTryCompileExec885038062/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec885038062.dir/build.make CMakeFiles/cmTryCompileExec885038062.dir/build
+make[1]: Entering directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /home/Asaechao/fydp/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec885038062.dir/feature_tests.cxx.o
+/usr/bin/c++.exe    -std=c++98 -o CMakeFiles/cmTryCompileExec885038062.dir/feature_tests.cxx.o -c /home/Asaechao/fydp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec885038062.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec885038062.dir/link.txt --verbose=1
+/usr/bin/c++.exe     -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec885038062.dir/feature_tests.cxx.o  -o cmTryCompileExec885038062.exe -Wl,--out-implib,libcmTryCompileExec885038062.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+make[1]: Leaving directory '/home/Asaechao/fydp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

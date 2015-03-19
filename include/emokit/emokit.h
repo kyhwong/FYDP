@@ -151,6 +151,7 @@ extern "C"
 	 * @return <0 for error, otherwise return the number of bytes read. 
 	 */
 	EMOKIT_DECLSPEC int emokit_read_data(struct emokit_device* dev);
+	EMOKIT_DECLSPEC int emokit_read_data_timeout(struct emokit_device* dev, int timeout_ms);
 
 	EMOKIT_DECLSPEC struct emokit_frame
 	emokit_get_next_frame(struct emokit_device* dev);

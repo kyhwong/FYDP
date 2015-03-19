@@ -15,11 +15,12 @@
 
 #define HEADSET_FREQUENCY 128
 
-void decrypt_loop(emokit_device *eeg, int secs, const char* output) {
+int decrypt_loop(emokit_device *eeg, int secs, const char* output) {
 	int i;
     FILE* fp;
     int frames_needed = 0;
     int count = 0;
+	int ret = 0;
     frames_needed = HEADSET_FREQUENCY*secs;
     fp = fopen(output, "w");
     if (!fp) {
@@ -28,7 +29,8 @@ void decrypt_loop(emokit_device *eeg, int secs, const char* output) {
     }
     fprintf(fp, "F3,FC,P7,T8,F7,F8,T7,P8,AF4,F4,AF3,O2,O1,FC5\n");
 	while (count < frames_needed) {
-		if (emokit_read_data(eeg) > 0) {
+		ret = emokit_read_data_timeout(eeg, 100);
+		if (ret > 0) {
             count++;
             struct emokit_frame frame;
             frame = emokit_get_next_frame(eeg);
@@ -38,9 +40,14 @@ void decrypt_loop(emokit_device *eeg, int secs, const char* output) {
                     frame.T7, frame.P8, frame.AF4,
                     frame.F4, frame.AF3, frame.O2,
                     frame.O1, frame.FC5);
+			ret = 0;
+		} else {
+			ret = -4;
+			break;
 		}
 	}
     fclose(fp);
+	return ret;
 }
 
 int main(int argc, char **argv) {
@@ -60,10 +67,10 @@ int main(int argc, char **argv) {
     
     // Create the emokit device
 	eeg = emokit_create();
-    
-	if (emokit_open(eeg, EMOKIT_VID, EMOKIT_PID, 1) != 0) {
+    int ret = emokit_open(eeg, EMOKIT_VID, EMOKIT_PID, 1);
+	if (ret != 0) {
         // printf("Unable to create a device, are you root?\n");
-		return 1;
+		return ret;
 	}
     
     
@@ -73,8 +80,8 @@ int main(int argc, char **argv) {
     // sprintf(&filename[0], "output/output_%ds_%d.csv", secs, (int)date);
     
     // printf("Starting decrypt loop\n");
-	decrypt_loop(eeg, secs, filename);
+	ret = decrypt_loop(eeg, secs, filename);
     // printf("Finished recording\n");
     
-	return 0;
+	return ret;
 }

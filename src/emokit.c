@@ -118,6 +118,7 @@ int emokit_open(struct emokit_device* s, int device_vid, int device_pid, unsigne
 {
 	int dev_type;
 	int count = 0;
+	int i;
 	struct hid_device_info* devices;
 	struct hid_device_info* device_cur;
 	if (!s->_is_inited)
@@ -161,6 +162,11 @@ int emokit_close(struct emokit_device* s)
 int emokit_read_data(struct emokit_device* s)
 {
 	return hid_read(s->_dev, s->raw_frame, 32);
+}
+
+int emokit_read_data_timeout(struct emokit_device* s, int timeout_ms)
+{
+	return hid_read_timeout(s->_dev, s->raw_frame, 32, timeout_ms);
 }
 
 EMOKIT_DECLSPEC
