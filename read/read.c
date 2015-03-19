@@ -52,10 +52,13 @@ int main(int argc, char **argv) {
 	struct sigaction sa;
 	emokit_device *eeg;
     char filename[255];
-    time_t date;
     int secs = 0;
     
-    date = time(NULL);
+    if (argc != 3) return -1;
+    
+    strncpy(filename, argv[1], 254);
+    filename[254] = '\0';
+    secs = atoi(argv[2]);
     
     // Create the emokit device
 	eeg = emokit_create();
@@ -65,14 +68,15 @@ int main(int argc, char **argv) {
 		return 1;
 	}
     
-    printf("How many seconds to record?\n");
-    scanf("%d", &secs);
     
-    sprintf(&filename[0], "output/output_%ds_%d.csv", secs, (int)date);
+    // printf("How many seconds to record?\n");
+    // scanf("%d", &secs);
     
-    printf("Starting decrypt loop\n");
+    // sprintf(&filename[0], "output/output_%ds_%d.csv", secs, (int)date);
+    
+    // printf("Starting decrypt loop\n");
 	decrypt_loop(eeg, secs, filename);
-    printf("Finished recording\n");
+    // printf("Finished recording\n");
     
 	return 0;
 }
