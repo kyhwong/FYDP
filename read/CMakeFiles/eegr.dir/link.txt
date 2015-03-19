@@ -1,1 +1,1 @@
-/usr/bin/gcc.exe    -Wl,--enable-auto-import  CMakeFiles/eegr.dir/read.c.o  -o ../bin/eegr.exe -Wl,--out-implib,../bin/libeegr.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../lib/libemokit.a -lmcrypt /usr/local/lib/libhidapi.dll.a -lpthread 
+/usr/bin/gcc.exe  -mwindows  -Wl,--enable-auto-import  CMakeFiles/eegr.dir/read.c.o  -o ../bin/eegr.exe -Wl,--out-implib,../bin/libeegr.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../lib/libemokit.a -lmcrypt /usr/local/lib/libhidapi.dll.a -lpthread 

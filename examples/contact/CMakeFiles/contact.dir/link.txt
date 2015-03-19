@@ -1,1 +1,1 @@
-/usr/bin/gcc.exe    -Wl,--enable-auto-import  CMakeFiles/contact.dir/contact.c.o  -o ../../bin/contact.exe -Wl,--out-implib,../../bin/libcontact.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../lib/libemokit.a -lmcrypt /usr/local/lib/libhidapi.dll.a 
+/usr/bin/gcc.exe  -mwindows  -Wl,--enable-auto-import  CMakeFiles/contact.dir/contact.c.o  -o ../../bin/contact.exe -Wl,--out-implib,../../bin/libcontact.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../../lib/libemokit.a -lmcrypt /usr/local/lib/libhidapi.dll.a 

@@ -48,7 +48,7 @@ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc.exe
 
 //Flags used by the compiler during all build types.
-CMAKE_C_FLAGS:STRING=
+CMAKE_C_FLAGS:STRING=-mwindows
 
 //Flags used by the compiler during debug builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g

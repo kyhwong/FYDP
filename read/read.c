@@ -27,7 +27,6 @@ void decrypt_loop(emokit_device *eeg, int secs, const char* output) {
         return;
     }
     fprintf(fp, "F3,FC,P7,T8,F7,F8,T7,P8,AF4,F4,AF3,O2,O1,FC5\n");
-    printf("Starting data read\n");
 	while (count < frames_needed) {
 		if (emokit_read_data(eeg) > 0) {
             count++;
@@ -63,7 +62,7 @@ int main(int argc, char **argv) {
 	eeg = emokit_create();
     
 	if (emokit_open(eeg, EMOKIT_VID, EMOKIT_PID, 1) != 0) {
-        printf("Unable to create a device, are you root?\n");
+        // printf("Unable to create a device, are you root?\n");
 		return 1;
 	}
     
